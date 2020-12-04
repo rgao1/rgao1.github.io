@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign</title>
+    <link rel="stylesheet" href="../css/regeister2.css">
+</head>
+
+<body class="parcel sign">
+   
+<div class="loginTop">
+    <div class="container">
+        <a href="">
+            <img src="../images/logo.png" alt="" style="width:80px;">
+        </a>
+    </div>
+</div>
+<section>
+    <div class="container">
+        <div class="step">
+            <div class="item active">
+                <strong index="1">Verification</strong>
+            </div>
+            <div class="item">
+                <strong index="2">Information</strong>
+            </div>
+            <div class="item">
+                <strong index="3">Complete</strong>
+            </div>
+        </div>
+        <div class="form">
+            <div class="step-content active">
+                <div class="item">
+                    <div class="name">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="input">
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                        <label for="verification">Verification</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="code">
+                            <input type="text" name="verification" id="verification">
+                            <div class="verification">
+                                verification
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                    </div>
+                    <div class="ctx">
+                        <div class="check">
+                            <div class="box">
+                                <input type="checkbox" name="q1" id="q1">
+                            </div>
+                            <label for="q1">
+                                Upon creating my account,I agree to:
+                                <br> - The
+                                <a href="javascript:void(0)">Alibaba.com User Agreement</a>
+                                <br> - Receive emails related to Alibaba.com membership and services
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                    </div>
+                    <div class="ctx">
+                        <input type="hidden" name="step" value="1" class="step1">
+                        <button type="button" id="next1">Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="step-content">
+                <div class="item">
+                    <div class="name">
+                        <label>Username</label>
+                    </div>
+                    <div class="ctx">
+                        <strong></strong>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="input">
+                            <input type="password" name="password" id="password"><span style="padding:5px;font-size:16px;">*<span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                        <label for="c-password">Confirm password</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="input">
+                            <input type="password" name="c-password" id="c-password"><span style="padding:5px;font-size:16px;">*<span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                        <label for="location">Location</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="input">
+                            <input type="text" name="location" id="location">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                        <label for="tp">I am a</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="radio">
+                            <input type="radio" id="tp1" name="position" value="Supplier">
+                            <label for="tp1">Supplier</label>
+                            <input type="radio" id="tp2" name="position" value="Buyer">
+                            <label for="tp2">Buyer</label>
+                            <input type="radio" id="tp3" name="position" value="Both">
+                            <label for="tp3">Both</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                        <label for="company">Company name</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="input">
+                            <input type="text" name="company" id="company">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                        <label for="tel">Tel</label>
+                    </div>
+                    <div class="ctx">
+                        <div class="input">
+                            <input type="tel" name="tel" id="tel">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name">
+                    </div>
+                    <div class="ctx">
+                        <input type="hidden" name="step" value="2" class="step2">
+                        <button type="button" id="next2">Confirm</button>
+                    </div>
+                </div>
+            </div>
+            <div class="step-content">
+                <div class="info">
+                    Congratulations on your successful registration. Please remember your account name and password.
+                    <br>
+                    <a href="../html/login.html">Login In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>

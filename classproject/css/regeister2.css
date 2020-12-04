@@ -1,0 +1,291 @@
+
+body.parcel,
+body.parcel * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body.parcel .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+body.parcel a {
+    text-decoration: none;
+}
+body.parcel header {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+body.parcel header .container {
+    height: 100px;
+}
+body.parcel header h1 {
+    padding: 22px 0 22px;
+}
+body.parcel header h1 a {
+    display: block;
+    width: 175px;
+    height: 55px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../img/login-1.png");
+}
+body.login {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+}
+body.login section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+body.login section .cover {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #193074;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body.login section .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+body.login section .form {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 404px;
+    height: 443px;
+    padding: 40px 20px;
+    color: #333;
+    font-size: 12px;
+    background-color: #fff;
+    transform: translateY(-50%);
+}
+body.login section .form button {
+    width: 100%;
+    height: 30px;
+    margin-top: 28px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: #f94c2f;
+}
+body.login section .label {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+body.login section .label a {
+    position: absolute;
+    right: 0;
+    font-weight: normal;
+    color: #2480db;
+}
+body.login section .input {
+    height: 28px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+}
+body.login section .input input {
+    width: 100%;
+    height: 100%;
+    padding: 0 1em;
+    outline: none;
+    border: none;
+}
+body.login section p {
+    padding: 24px 0;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: right;
+}
+body.login section p a {
+    color: #2480db;
+}
+body.login section .check {
+    padding-top: 8px;
+}
+body.login section .check .item {
+    display: flex;
+    padding: 4px 0;
+}
+body.login section .check .item input {
+    width: 20px;
+}
+body.login section .check .item label {
+    flex: auto;
+}
+body.login section .check .item label a {
+    color: #333;
+    font-weight: bold;
+}
+body.sign .step {
+    display: flex;
+    padding: 0 120px;
+    border-bottom: 1px solid #e6e6e6;
+}
+body.sign .step .item {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,0);
+}
+body.sign .step .item.active {
+    border-color: #f94c2f;
+}
+body.sign .step .item.active strong {
+    color: #000;
+}
+body.sign .step .item.active strong:after {
+    background-color: #f94c2f;
+}
+body.sign .step .item strong {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #888;
+    cursor: default;
+}
+body.sign .step .item strong:after {
+    content: attr(index);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #b3b3b3;
+}
+body.sign .form {
+    padding: 40px 0;
+    font-size: 12px;
+}
+body.sign .form .step-content {
+    display: none;
+}
+body.sign .form .step-content.active {
+    display: block;
+}
+body.sign .form .item {
+    display: flex;
+    padding: 8px 0;
+}
+body.sign .form .item .name {
+    width: 460px;
+    padding-right: 20px;
+    text-align: right;
+    line-height: 36px;
+    font-weight: bold;
+}
+body.sign .form .item .ctx {
+    flex: auto;
+}
+body.sign .form .item .radio {
+    padding: 10px 0;
+}
+body.sign .form .item .radio label {
+    margin-right: 10px;
+}
+body.sign .form .item .input input {
+    width: 320px;
+    height: 36px;
+    padding: 0 1em;
+}
+body.sign .form .item strong {
+    line-height: 38px;
+}
+body.sign .form .item .code {
+    display: flex;
+}
+body.sign .form .item .code input {
+    width: 200px;
+    height: 36px;
+    padding: 0 1em;
+}
+body.sign .form .item .code .verification {
+    width: 120px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f94c2f;
+}
+body.sign .form .item .check {
+    display: flex;
+    color: #808080;
+    font-size: 12px;
+}
+body.sign .form .item .check .box {
+    padding: 10px;
+}
+body.sign .form .item .check label {
+    line-height: 22px;
+}
+body.sign .form .item .check a {
+    color: #2480db;
+}
+body.sign .form .item a.submit {
+    display: block;
+    width: 180px;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 36px;
+    background-color: #f94c2f;
+    color: #fff;
+    font-weight: bold;
+}
+body.sign .form .item button[type="button"] {
+    width: 180px;
+    height: 36px;
+    background-color: #f94c2f;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+body.sign .form .wanning {
+    padding: 20px;
+    margin: 30px 120px;
+    border: 1px solid #e5e5e5;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fffced;
+}
+body.sign .form .info {
+    padding: 20px;
+    margin: 0 120px;
+    border: 1px solid #e5e5e5;
+    font-size: 18px;
+    color: #333;
+    background-color: #f7f7f7;
+}
+body.sign .form .info a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #f94c2f;
+}
+input{background:#fff;}
